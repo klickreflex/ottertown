@@ -7,6 +7,7 @@
     "production": "vite build"
   },
   "author": "Studio 1902",
+  "name": "ottertown",
   "license": "MIT",
   "dependencies": {
     "@alpinejs/collapse": "^3.10.5",

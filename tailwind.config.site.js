@@ -84,7 +84,7 @@ module.exports = {
                         fontFamily: 'M Plus Rounded',
                         fontStyle: 'normal',
                         fontWeight: '800',
-                        src: 'local(""), url("../fonts/m-plus-rounded-1c-v15-latin-800.woff2") format("woff2"), url("../fonts/m-plus-rounded-1c-v15-latin-800.woff") format("woff")',
+                        src: 'local(""), url("/public/fonts/m-plus-rounded-1c-v15-latin-800.woff2") format("woff2"), url("/fonts/m-plus-rounded-1c-v15-latin-800.woff") format("woff")',
                     }
                 ],
                 // Default color transition on links unless user prefers reduced motion.

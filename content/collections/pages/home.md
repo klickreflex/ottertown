@@ -19,7 +19,7 @@ page_builder:
         content:
           -
             type: text
-            text: 'Start out on top'
+            text: 'Welcome to Ottertown 🦦'
       -
         type: paragraph
         content:

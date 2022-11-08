@@ -2,3 +2,7 @@ name: Daniel
 super: true
 id: f109daeb-2348-4e09-a494-e84d38c70c4e
 password_hash: $2y$10$23G8DyXXR6JHA412bouxM.B/vYEfWIA.XwDlNEwlpQi25xz7wI7qe
+preferences:
+  collections:
+    pages:
+      after_save: continue_editing

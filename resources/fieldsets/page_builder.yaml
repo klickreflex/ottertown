@@ -22,6 +22,12 @@ fields:
           fields:
             -
               import: call_to_action
+        cards:
+          display: Cards
+          instructions: null
+          fields:
+            -
+              import: cards
         collection:
           display: Collection
           instructions: 'Show collection entries.'

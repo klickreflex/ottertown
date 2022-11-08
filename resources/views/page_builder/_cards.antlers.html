@@ -1,0 +1,30 @@
+{{#
+	@name Cards
+	@desc The Cards page builder block.
+    @set page.page_builder.cards
+#}}
+
+<!-- /page_builder/_cards.antlers.html -->
+<div class="py-8 bg-primary/10 ">
+    <section class="grid gap-8 fluid-container md:grid-cols-12">
+       <div class="size-xl ">
+           <div class="grid gap-4 md:grid-cols-3">
+                {{ card }}
+                    <div class="bg-white shadow-lg">
+                        {{
+                            partial:components/picture
+                            :image="image"
+                            class="w-full"
+                            cover="false"
+                            lazy="true"
+                            sizes="(min-width: 768px) 420px, 90vw"
+                            aspect_ratio="3/2"
+                        }}
+                        {{ partial:typography/h3 as="h2" :content="title" class="p-3" }}
+                    </div>
+                {{ /card }}
+            </div>
+        </div>
+    </section>
+</div>
+<!-- End: /page_builder/_cards.html -->

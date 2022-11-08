@@ -3,7 +3,7 @@ id: 6b995156-142b-43d6-be4e-6c260ea90d37
 blueprint: page
 title: Examples
 updated_by: f109daeb-2348-4e09-a494-e84d38c70c4e
-updated_at: 1667915905
+updated_at: 1667920614
 seo_noindex: false
 seo_nofollow: false
 seo_canonical_type: entry
@@ -11,6 +11,35 @@ sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 og_render_image: true
 page_builder:
+  -
+    id: la8aesgw
+    card:
+      -
+        id: la8aet26
+        title: 'Michaela Spencer'
+        image: otters/jason-hafso-uweivawrg1a-unsplash.jpg
+      -
+        id: la8afz0d
+        title: 'Everardo Smith'
+        image: otters/karl-anderson-9dqdosvuc10-unsplash.jpg
+      -
+        id: la8ag9tq
+        title: 'Piper Maggio'
+        image: otters/mana5280-5_k1l-5muho-unsplash.jpg
+      -
+        id: la8agjah
+        title: 'Marco Lynch'
+        image: otters/mana5280-6vfp_lgexkg-unsplash.jpg
+      -
+        id: la8agso0
+        title: 'Elinore Ryan'
+        image: otters/mana5280-kedqc1t0ifi-unsplash.jpg
+      -
+        id: la8ah0ml
+        title: 'Pink Dare'
+        image: otters/mana5280-mhxop68uagk-unsplash.jpg
+    type: cards
+    enabled: true
   -
     id: la89sm2e
     title: 'Eros aenean nec faucibus'
@@ -86,5 +115,16 @@ page_builder:
     image: a-peak.jpg
     image_position: right
     type: image_and_text
+    enabled: true
+  -
+    id: la8bxi9a
+    rows:
+      -
+        id: la8bxivx
+        images:
+          - otters/mana5280-mhxop68uagk-unsplash.jpg
+          - otters/mana5280-5_k1l-5muho-unsplash.jpg
+          - otters/mana5280-6vfp_lgexkg-unsplash.jpg
+    type: images_grid
     enabled: true
 ---

@@ -1,0 +1,18 @@
+title: Cards
+fields:
+  -
+    handle: card
+    field:
+      fields:
+        -
+          import: card
+      mode: stacked
+      add_row: 'Add Card'
+      reorderable: true
+      display: Card
+      type: grid
+      icon: grid
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      always_save: false
